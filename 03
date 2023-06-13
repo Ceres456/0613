@@ -1,0 +1,580 @@
+root@student8-virtual-machine:/var/www/html# ufw allow 80
+규칙이 추가되었습니다
+규칙이 추가되었습니다 (v6)
+root@student8-virtual-machine:/var/www/html# cd 다운로드
+bash: cd: 다운로드: 그런 파일이나 디렉터리가 없습니다
+root@student8-virtual-machine:/var/www/html# cd
+root@student8-virtual-machine:~# cd 다운로드
+root@student8-virtual-machine:~/다운로드# ls
+0612-master  0612-master.zip  google-chrome-stable_current_amd64.deb  mc_4.8.28-1_amd64.deb  ncftp_3.2.6-1_amd64.deb
+root@student8-virtual-machine:~/다운로드# cd 0612.main
+bash: cd: 0612.main: 그런 파일이나 디렉터리가 없습니다
+root@student8-virtual-machine:~/다운로드# cd 0612-master
+root@student8-virtual-machine:~/다운로드/0612-master# ls
+01.html  03.html  05.html  07.html  09.html  11.html  13.html  15.html  17.html  19.html  21.html  23.html
+02.html  04.html  06.html  08.html  10.html  12.html  14.html  16.html  18.html  20.html  22.html
+root@student8-virtual-machine:~/다운로드/0612-master# cd /var/www/html
+root@student8-virtual-machine:/var/www/html# ls
+index.html
+root@student8-virtual-machine:/var/www/html# cd
+root@student8-virtual-machine:~# ls
+linkdir  new.txt  poly.tar  poly1.xz  snap  test  test1.txt  test1.txt.xz  test2  test2.txt  test3  test3.txt  공개  다운로드  문서  바탕화면  비디오  사진  음악  템플릿
+root@student8-virtual-machine:~# cd 다운로드
+root@student8-virtual-machine:~/다운로드# mv *.html /var/www/html
+mv: '*.html' 상태 정보 확인 불가: 그런 파일이나 디렉터리가 없습니다
+root@student8-virtual-machine:~/다운로드# cd 0612-master
+root@student8-virtual-machine:~/다운로드/0612-master# mv *.html /var/www/html
+root@student8-virtual-machine:~/다운로드/0612-master# ls
+root@student8-virtual-machine:~/다운로드/0612-master# cd
+root@student8-virtual-machine:~# cd /var/www/html
+root@student8-virtual-machine:/var/www/html# ls
+01.html  03.html  05.html  07.html  09.html  11.html  13.html  15.html  17.html  19.html  21.html  23.html
+02.html  04.html  06.html  08.html  10.html  12.html  14.html  16.html  18.html  20.html  22.html  index.html
+root@student8-virtual-machine:/var/www/html# cd
+root@student8-virtual-machine:~# nm.connection.editor
+nm.connection.editor: 명령을 찾을 수 없습니다
+root@student8-virtual-machine:~# nm-connection-editor
+** Message: 11:05:20.718: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: ipv4.addresses: 이 속성은 'method=manual'에 대해 비어 있을 수 없습니다
+** Message: 11:05:23.134: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 주소 “”(은)는 유효하지 않음
+** Message: 11:05:34.625: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 주소 “192.168.16”(은)는 유효하지 않음
+** Message: 11:05:52.032: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 주소 넷마스크 “”(은)는 유효하지 않음
+** Message: 11:06:03.753: Connection validates and can be saved
+** Message: 11:08:10.189: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “0”(은)는 유효하지 않음
+** Message: 11:08:10.369: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “0.”(은)는 유효하지 않음
+** Message: 11:08:10.581: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “0.0”(은)는 유효하지 않음
+** Message: 11:08:10.782: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “0.0.”(은)는 유효하지 않음
+** Message: 11:08:11.005: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “0.0.0”(은)는 유효하지 않음
+** Message: 11:08:11.431: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “0.0.0.”(은)는 유효하지 않음
+** Message: 11:08:11.782: Connection validates and can be saved
+** Message: 11:08:15.446: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “0.0.0.”(은)는 유효하지 않음
+** Message: 11:08:15.590: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “0.0.0”(은)는 유효하지 않음
+** Message: 11:08:15.709: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “0.0.”(은)는 유효하지 않음
+** Message: 11:08:15.862: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “0.0”(은)는 유효하지 않음
+** Message: 11:08:15.989: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “0.”(은)는 유효하지 않음
+** Message: 11:08:16.141: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “0”(은)는 유효하지 않음
+** Message: 11:08:16.285: Connection validates and can be saved
+** Message: 11:08:16.845: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “8”(은)는 유효하지 않음
+** Message: 11:08:16.966: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “8.”(은)는 유효하지 않음
+** Message: 11:08:17.079: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “8.8”(은)는 유효하지 않음
+** Message: 11:08:17.192: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “8.8.”(은)는 유효하지 않음
+** Message: 11:08:17.333: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “8.8.8”(은)는 유효하지 않음
+** Message: 11:08:17.430: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “8.8.8.”(은)는 유효하지 않음
+** Message: 11:08:17.734: Connection validates and can be saved
+** Message: 11:09:54.699: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “8.8.8.”(은)는 유효하지 않음
+** Message: 11:09:54.803: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “8.8.8”(은)는 유효하지 않음
+** Message: 11:09:55.004: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “8.8.”(은)는 유효하지 않음
+** Message: 11:09:55.164: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “8.8”(은)는 유효하지 않음
+** Message: 11:09:55.315: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “8.”(은)는 유효하지 않음
+** Message: 11:09:55.915: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “8”(은)는 유효하지 않음
+** Message: 11:09:56.083: Connection validates and can be saved
+** Message: 11:09:56.643: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “1”(은)는 유효하지 않음
+** Message: 11:09:57.068: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “16”(은)는 유효하지 않음
+** Message: 11:09:57.628: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “163”(은)는 유효하지 않음
+** Message: 11:09:58.332: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “16”(은)는 유효하지 않음
+** Message: 11:09:58.483: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164”(은)는 유효하지 않음
+** Message: 11:09:59.227: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.”(은)는 유효하지 않음
+** Message: 11:10:01.355: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.1”(은)는 유효하지 않음
+** Message: 11:10:01.442: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.12”(은)는 유효하지 않음
+** Message: 11:10:01.875: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.123”(은)는 유효하지 않음
+** Message: 11:10:02.179: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.123.”(은)는 유효하지 않음
+** Message: 11:10:03.235: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.123”(은)는 유효하지 않음
+** Message: 11:10:03.379: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.1234”(은)는 유효하지 않음
+** Message: 11:10:04.204: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.1234.”(은)는 유효하지 않음
+** Message: 11:10:04.499: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.1234.1”(은)는 유효하지 않음
+** Message: 11:10:04.587: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.1234.10”(은)는 유효하지 않음
+** Message: 11:10:04.682: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.1234.101”(은)는 유효하지 않음
+** Message: 11:10:05.243: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.1234.101.”(은)는 유효하지 않음
+** Message: 11:10:06.203: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.1234.101.2”(은)는 유효하지 않음
+** Message: 11:10:11.658: Connection validates and can be saved
+** Message: 11:12:36.719: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.124.101.”(은)는 유효하지 않음
+** Message: 11:12:37.220: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.124.101”(은)는 유효하지 않음
+** Message: 11:12:37.251: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.124.10”(은)는 유효하지 않음
+** Message: 11:12:37.285: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.124.1”(은)는 유효하지 않음
+** Message: 11:12:37.312: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.124.”(은)는 유효하지 않음
+** Message: 11:12:37.343: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.124”(은)는 유효하지 않음
+** Message: 11:12:37.372: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.12”(은)는 유효하지 않음
+** Message: 11:12:37.403: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.1”(은)는 유효하지 않음
+** Message: 11:12:37.434: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164.”(은)는 유효하지 않음
+** Message: 11:12:37.459: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “164”(은)는 유효하지 않음
+** Message: 11:12:37.497: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “16”(은)는 유효하지 않음
+** Message: 11:12:37.527: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “1”(은)는 유효하지 않음
+** Message: 11:12:37.550: Connection validates and can be saved
+** Message: 11:12:38.391: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “2”(은)는 유효하지 않음
+** Message: 11:12:38.504: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “23”(은)는 유효하지 않음
+** Message: 11:12:38.689: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “230”(은)는 유효하지 않음
+** Message: 11:12:39.973: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “23”(은)는 유효하지 않음
+** Message: 11:12:40.184: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “2”(은)는 유효하지 않음
+** Message: 11:12:40.829: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “20”(은)는 유효하지 않음
+** Message: 11:12:40.937: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “203”(은)는 유효하지 않음
+** Message: 11:12:42.545: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “20”(은)는 유효하지 않음
+** Message: 11:12:42.736: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “2”(은)는 유효하지 않음
+** Message: 11:12:42.907: Connection validates and can be saved
+** Message: 11:12:44.697: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “1”(은)는 유효하지 않음
+** Message: 11:12:44.918: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “16”(은)는 유효하지 않음
+** Message: 11:12:45.324: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “163”(은)는 유효하지 않음
+** Message: 11:12:46.353: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “163.”(은)는 유효하지 않음
+** Message: 11:12:46.539: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “163.1”(은)는 유효하지 않음
+** Message: 11:12:46.665: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “163.12”(은)는 유효하지 않음
+** Message: 11:12:47.089: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “163.124”(은)는 유효하지 않음
+** Message: 11:12:47.793: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “163.124.”(은)는 유효하지 않음
+** Message: 11:12:48.604: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “163.124.1”(은)는 유효하지 않음
+** Message: 11:12:48.753: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “163.124.10”(은)는 유효하지 않음
+** Message: 11:12:48.829: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “163.124.101”(은)는 유효하지 않음
+** Message: 11:12:49.536: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “163.124.101.”(은)는 유효하지 않음
+** Message: 11:12:49.672: Connection validates and can be saved
+** Message: 11:13:54.375: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “2”(은)는 유효하지 않음
+** Message: 11:13:54.542: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “20”(은)는 유효하지 않음
+** Message: 11:13:54.686: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “204”(은)는 유효하지 않음
+** Message: 11:13:55.278: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “204.”(은)는 유효하지 않음
+** Message: 11:13:56.390: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “204.2”(은)는 유효하지 않음
+** Message: 11:13:57.559: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “204.24”(은)는 유효하지 않음
+** Message: 11:13:57.646: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “204.248”(은)는 유효하지 않음
+** Message: 11:13:59.950: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “20.248”(은)는 유효하지 않음
+** Message: 11:14:00.022: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “203.248”(은)는 유효하지 않음
+** Message: 11:14:03.277: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “203.248.”(은)는 유효하지 않음
+** Message: 11:14:03.574: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “203.248.2”(은)는 유효하지 않음
+** Message: 11:14:03.806: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “203.248.25”(은)는 유효하지 않음
+** Message: 11:14:04.062: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “203.248.252”(은)는 유효하지 않음
+** Message: 11:14:05.134: Cannot save connection due to error: 올바르지 않은 설정 IPv4 설정: IPv4 DNS 서버 “203.248.252.”(은)는 유효하지 않음
+** Message: 11:14:05.215: Connection validates and can be saved
+ 
+root@student8-virtual-machine:~/바탕화면# cd
+root@student8-virtual-machine:~# apt-get-y install dconf-editor
+apt-get-y: 명령을 찾을 수 없습니다
+root@student8-virtual-machine:~# apt-get -y install dconf-editor
+패키지 목록을 읽는 중입니다... 완료
+의존성 트리를 만드는 중입니다... 완료
+상태 정보를 읽는 중입니다... 완료        
+다음 새 패키지를 설치할 것입니다:
+  dconf-editor
+0개 업그레이드, 1개 새로 설치, 0개 제거 및 8개 업그레이드 안 함.
+390 k바이트 아카이브를 받아야 합니다.
+이 작업 후 2,100 k바이트의 디스크 공간을 더 사용하게 됩니다.
+받기:1 http://mirror.kakao.com/ubuntu bionic/universe amd64 dconf-editor amd64 3.28.0-1 [390 kB]
+내려받기 390 k바이트, 소요시간 0초 (1,478 k바이트/초)
+Selecting previously unselected package dconf-editor.
+(데이터베이스 읽는중 ...현재 202724개의 파일과 디렉터리가 설치되어 있습니다.)
+Preparing to unpack .../dconf-editor_3.28.0-1_amd64.deb ...
+Unpacking dconf-editor (3.28.0-1) ...
+dconf-editor (3.28.0-1) 설정하는 중입니다 ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for gnome-menus (3.36.0-1ubuntu3) ...
+Processing triggers for libglib2.0-0:amd64 (2.72.4-0ubuntu1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for mailcap (3.70+nmu1ubuntu1) ...
+Processing triggers for desktop-file-utils (0.26-1ubuntu3) ...
+root@student8-virtual-machine:~# dconf-editor
+
+** (dconf-editor:2579): WARNING **: 09:39:04.764: source-manager.vala:98: Schema with id “org.gnome.desktop.remote-desktop” contains neither keys nor children.
+root@student8-virtual-machine:~# ufw allow 5900/tcp
+규칙이 추가되었습니다
+규칙이 추가되었습니다 (v6)
+root@student8-virtual-machine:~# ifconfig
+ens32: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.160.128  netmask 255.255.255.0  broadcast 192.168.160.255
+        inet6 fe80::b67d:dac3:235a:7a9a  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:9b:08:16  txqueuelen 1000  (Ethernet)
+        RX packets 62997  bytes 94721806 (94.7 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 13947  bytes 880253 (880.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 178  bytes 16472 (16.4 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 178  bytes 16472 (16.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+root@student8-virtual-machine:~# atp-get -y install lamp-server^
+명령어 'atp-get' 을(를) 찾을 수 없습니다. 다음 명령어로 시도하시겠습니까:
+  deb apt-getapt의 명령어 ' (2.4.8)'
+Try: apt install <deb name>
+root@student8-virtual-machine:~# apt-get -y install lamp-server^
+패키지 목록을 읽는 중입니다... 완료
+의존성 트리를 만드는 중입니다... 완료
+상태 정보를 읽는 중입니다... 완료        
+주의, 작업 'lamp-server'에 대해 'libperl5.26'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libwind0-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php7.2-common'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libgssapi3-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libheimbase1-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libfcgi-perl'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'mysql-server-5.7'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libaio1'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libaprutil1-dbd-sqlite3'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'mysql-client-5.7'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libapr1'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php7.2-opcache'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'mysql-common'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libhx509-5-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libapache2-mod-php'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'liblua5.2-0'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php-common'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php7.2-cli'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libhcrypto4-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libapache2-mod-php7.2'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php7.2-json'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libroken18-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libasn1-8-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libheimntlm0-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libldap-2.4-2'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php7.2-readline'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'apache2-data'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libhtml-template-perl'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'apache2-bin'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libaprutil1'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php-mysql'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libcgi-fast-perl'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'mysql-server'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'mysql-server-core-5.7'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'apache2-utils'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libevent-core-2.1-6'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'apache2'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libkrb5-26-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'mysql-client-core-5.7'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'perl-modules-5.26'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libcgi-pm-perl'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libaprutil1-ldap'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php7.2-mysql'을(를) 선택합니다
+패키지 libapr1는 이미 최신 버전입니다 (1.6.3-2).
+libapr1 패키지는 수동설치로 지정합니다.
+패키지 liblua5.2-0는 이미 최신 버전입니다 (5.2.4-1.1build1).
+liblua5.2-0 패키지는 수동설치로 지정합니다.
+패키지 apache2는 이미 최신 버전입니다 (2.4.29-1ubuntu4.27).
+패키지 apache2-bin는 이미 최신 버전입니다 (2.4.29-1ubuntu4.27).
+apache2-bin 패키지는 수동설치로 지정합니다.
+패키지 apache2-data는 이미 최신 버전입니다 (2.4.29-1ubuntu4.27).
+apache2-data 패키지는 수동설치로 지정합니다.
+패키지 apache2-utils는 이미 최신 버전입니다 (2.4.29-1ubuntu4.27).
+apache2-utils 패키지는 수동설치로 지정합니다.
+패키지 libaprutil1는 이미 최신 버전입니다 (1.6.1-2ubuntu0.1).
+libaprutil1 패키지는 수동설치로 지정합니다.
+패키지 libaprutil1-dbd-sqlite3는 이미 최신 버전입니다 (1.6.1-2ubuntu0.1).
+libaprutil1-dbd-sqlite3 패키지는 수동설치로 지정합니다.
+패키지 libaprutil1-ldap는 이미 최신 버전입니다 (1.6.1-2ubuntu0.1).
+libaprutil1-ldap 패키지는 수동설치로 지정합니다.
+패키지 libasn1-8-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libasn1-8-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libgssapi3-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libgssapi3-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libhcrypto4-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libhcrypto4-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libheimbase1-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libheimbase1-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libheimntlm0-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libheimntlm0-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libhx509-5-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libhx509-5-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libkrb5-26-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libkrb5-26-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libldap-2.4-2는 이미 최신 버전입니다 (2.4.45+dfsg-1ubuntu1.11).
+libldap-2.4-2 패키지는 수동설치로 지정합니다.
+패키지 libroken18-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libroken18-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libwind0-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libwind0-heimdal 패키지는 수동설치로 지정합니다.
+몇몇 패키지를 설치할 수 없습니다. 요청한 상황이 불가능할 수도 있고,
+불안정 배포판을 사용해서 일부 필요한 패키지를 아직 만들지 않았거나,
+아직 Incoming에서 나오지 않은 경우일 수도 있습니다.
+이 상황을 해결하는데 다음 정보가 도움이 될 수도 있습니다:
+
+다음 패키지의 의존성이 맞지 않습니다:
+ libfcgi-perl : 의존: perlapi-5.26.0
+ perl : 망가뜨림: perl-modules-5.26 (< 5.26.2-5) 하지만 5.26.1-6ubuntu0.7 패키지를 설치할 것입니다
+        망가뜨림: perl-modules-5.26:i386 (< 5.26.2-5)
+E: 문제를 바로잡을 수 없습니다. 망가진 고정 패키지가 있습니다.
+root@student8-virtual-machine:~# apt-get update
+기존:1 http://mirror.kakao.com/ubuntu bionic InRelease 
+기존:2 https://dl.google.com/linux/chrome/deb stable InRelease                 
+받기:3 http://kr.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]  
+내려받기 88.7 k바이트, 소요시간 2초 (51.9 k바이트/초)                  
+패키지 목록을 읽는 중입니다... 완료
+W: http://ftp.daumkakao.com/ubuntu/dists/bionic/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+W: http://kr.archive.ubuntu.com/ubuntu/dists/bionic-updates/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+root@student8-virtual-machine:~# apt-get -y install lamp-server^
+패키지 목록을 읽는 중입니다... 완료
+의존성 트리를 만드는 중입니다... 완료
+상태 정보를 읽는 중입니다... 완료        
+주의, 작업 'lamp-server'에 대해 'libperl5.26'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libwind0-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php7.2-common'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libgssapi3-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libheimbase1-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libfcgi-perl'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'mysql-server-5.7'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libaio1'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libaprutil1-dbd-sqlite3'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'mysql-client-5.7'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libapr1'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php7.2-opcache'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'mysql-common'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libhx509-5-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libapache2-mod-php'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'liblua5.2-0'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php-common'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php7.2-cli'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libhcrypto4-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libapache2-mod-php7.2'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php7.2-json'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libroken18-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libasn1-8-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libheimntlm0-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libldap-2.4-2'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php7.2-readline'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'apache2-data'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libhtml-template-perl'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'apache2-bin'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libaprutil1'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php-mysql'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libcgi-fast-perl'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'mysql-server'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'mysql-server-core-5.7'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'apache2-utils'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libevent-core-2.1-6'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'apache2'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libkrb5-26-heimdal'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'mysql-client-core-5.7'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'perl-modules-5.26'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libcgi-pm-perl'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'libaprutil1-ldap'을(를) 선택합니다
+주의, 작업 'lamp-server'에 대해 'php7.2-mysql'을(를) 선택합니다
+패키지 libapr1는 이미 최신 버전입니다 (1.6.3-2).
+libapr1 패키지는 수동설치로 지정합니다.
+패키지 liblua5.2-0는 이미 최신 버전입니다 (5.2.4-1.1build1).
+liblua5.2-0 패키지는 수동설치로 지정합니다.
+패키지 apache2는 이미 최신 버전입니다 (2.4.29-1ubuntu4.27).
+패키지 apache2-bin는 이미 최신 버전입니다 (2.4.29-1ubuntu4.27).
+apache2-bin 패키지는 수동설치로 지정합니다.
+패키지 apache2-data는 이미 최신 버전입니다 (2.4.29-1ubuntu4.27).
+apache2-data 패키지는 수동설치로 지정합니다.
+패키지 apache2-utils는 이미 최신 버전입니다 (2.4.29-1ubuntu4.27).
+apache2-utils 패키지는 수동설치로 지정합니다.
+패키지 libaprutil1는 이미 최신 버전입니다 (1.6.1-2ubuntu0.1).
+libaprutil1 패키지는 수동설치로 지정합니다.
+패키지 libaprutil1-dbd-sqlite3는 이미 최신 버전입니다 (1.6.1-2ubuntu0.1).
+libaprutil1-dbd-sqlite3 패키지는 수동설치로 지정합니다.
+패키지 libaprutil1-ldap는 이미 최신 버전입니다 (1.6.1-2ubuntu0.1).
+libaprutil1-ldap 패키지는 수동설치로 지정합니다.
+패키지 libasn1-8-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libasn1-8-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libgssapi3-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libgssapi3-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libhcrypto4-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libhcrypto4-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libheimbase1-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libheimbase1-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libheimntlm0-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libheimntlm0-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libhx509-5-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libhx509-5-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libkrb5-26-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libkrb5-26-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libldap-2.4-2는 이미 최신 버전입니다 (2.4.45+dfsg-1ubuntu1.11).
+libldap-2.4-2 패키지는 수동설치로 지정합니다.
+패키지 libroken18-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libroken18-heimdal 패키지는 수동설치로 지정합니다.
+패키지 libwind0-heimdal는 이미 최신 버전입니다 (7.5.0+dfsg-1ubuntu0.4).
+libwind0-heimdal 패키지는 수동설치로 지정합니다.
+몇몇 패키지를 설치할 수 없습니다. 요청한 상황이 불가능할 수도 있고,
+불안정 배포판을 사용해서 일부 필요한 패키지를 아직 만들지 않았거나,
+아직 Incoming에서 나오지 않은 경우일 수도 있습니다.
+이 상황을 해결하는데 다음 정보가 도움이 될 수도 있습니다:
+
+다음 패키지의 의존성이 맞지 않습니다:
+ libfcgi-perl : 의존: perlapi-5.26.0
+ perl : 망가뜨림: perl-modules-5.26 (< 5.26.2-5) 하지만 5.26.1-6ubuntu0.7 패키지를 설치할 것입니다
+        망가뜨림: perl-modules-5.26:i386 (< 5.26.2-5)
+E: 문제를 바로잡을 수 없습니다. 망가진 고정 패키지가 있습니다.
+root@student8-virtual-machine:~# apt-get update
+기존:2 https://dl.google.com/linux/chrome/deb stable InRelease
+받기:3 http://kr.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB] 
+기존:1 http://mirror.kakao.com/ubuntu bionic InRelease                        
+내려받기 88.7 k바이트, 소요시간 2초 (57.3 k바이트/초)                     
+패키지 목록을 읽는 중입니다... 완료
+W: http://ftp.daumkakao.com/ubuntu/dists/bionic/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+W: http://kr.archive.ubuntu.com/ubuntu/dists/bionic-updates/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+root@student8-virtual-machine:~# systemctl restart mysql
+Failed to restart mysql.service: Unit mysql.service not found.
+root@student8-virtual-machine:~# systemctl restart mysql
+Failed to restart mysql.service: Unit mysql.service not found.
+root@student8-virtual-machine:~# apt-get -y install mysql-server
+패키지 목록을 읽는 중입니다... 완료
+의존성 트리를 만드는 중입니다... 완료
+상태 정보를 읽는 중입니다... 완료        
+다음의 추가 패키지가 설치될 것입니다 :
+  libaio1 libcgi-pm-perl libevent-core-2.1-6 libhtml-template-perl
+  mysql-client-5.7 mysql-client-core-5.7 mysql-common mysql-server-5.7
+  mysql-server-core-5.7
+제안하는 패키지:
+  libipc-sharedcache-perl mailx tinyca
+추천하는 패키지:
+  libcgi-fast-perl
+다음 새 패키지를 설치할 것입니다:
+  libaio1 libcgi-pm-perl libevent-core-2.1-6 libhtml-template-perl
+  mysql-client-5.7 mysql-client-core-5.7 mysql-common mysql-server
+  mysql-server-5.7 mysql-server-core-5.7
+0개 업그레이드, 10개 새로 설치, 0개 제거 및 9개 업그레이드 안 함.
+19.7 M바이트 아카이브를 받아야 합니다.
+이 작업 후 156 M바이트의 디스크 공간을 더 사용하게 됩니다.
+받기:1 http://mirror.kakao.com/ubuntu bionic/main amd64 mysql-common all 5.8+1.0.4 [7,308 B]
+받기:2 http://mirror.kakao.com/ubuntu bionic/main amd64 libevent-core-2.1-6 amd64 2.1.8-stable-4build1 [85.9 kB]
+받기:3 http://mirror.kakao.com/ubuntu bionic/main amd64 libcgi-pm-perl all 4.38-1 [185 kB]
+받기:4 http://mirror.kakao.com/ubuntu bionic/main amd64 libhtml-template-perl all 2.97-1 [59.0 kB]
+받기:5 http://kr.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libaio1 amd64 0.3.110-5ubuntu0.1 [6,476 B]
+받기:6 http://kr.archive.ubuntu.com/ubuntu bionic-updates/main amd64 mysql-client-core-5.7 amd64 5.7.42-0ubuntu0.18.04.1 [6,752 kB]
+받기:7 http://kr.archive.ubuntu.com/ubuntu bionic-updates/main amd64 mysql-client-5.7 amd64 5.7.42-0ubuntu0.18.04.1 [2,028 kB]
+받기:8 http://kr.archive.ubuntu.com/ubuntu bionic-updates/main amd64 mysql-server-core-5.7 amd64 5.7.42-0ubuntu0.18.04.1 [7,542 kB]
+받기:9 http://kr.archive.ubuntu.com/ubuntu bionic-updates/main amd64 mysql-server-5.7 amd64 5.7.42-0ubuntu0.18.04.1 [3,011 kB]
+받기:10 http://kr.archive.ubuntu.com/ubuntu bionic-updates/main amd64 mysql-server all 5.7.42-0ubuntu0.18.04.1 [9,944 B]
+내려받기 19.7 M바이트, 소요시간 6초 (3,560 k바이트/초)
+패키지를 미리 설정하는 중입니다...
+Selecting previously unselected package mysql-common.
+(데이터베이스 읽는중 ...현재 203599개의 파일과 디렉터리가 설치되어 있습니다.)
+Preparing to unpack .../0-mysql-common_5.8+1.0.4_all.deb ...
+Unpacking mysql-common (5.8+1.0.4) ...
+Selecting previously unselected package libaio1:amd64.
+Preparing to unpack .../1-libaio1_0.3.110-5ubuntu0.1_amd64.deb ...
+Unpacking libaio1:amd64 (0.3.110-5ubuntu0.1) ...
+Selecting previously unselected package mysql-client-core-5.7.
+Preparing to unpack .../2-mysql-client-core-5.7_5.7.42-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking mysql-client-core-5.7 (5.7.42-0ubuntu0.18.04.1) ...
+Selecting previously unselected package mysql-client-5.7.
+Preparing to unpack .../3-mysql-client-5.7_5.7.42-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking mysql-client-5.7 (5.7.42-0ubuntu0.18.04.1) ...
+Selecting previously unselected package mysql-server-core-5.7.
+Preparing to unpack .../4-mysql-server-core-5.7_5.7.42-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking mysql-server-core-5.7 (5.7.42-0ubuntu0.18.04.1) ...
+Selecting previously unselected package libevent-core-2.1-6:amd64.
+Preparing to unpack .../5-libevent-core-2.1-6_2.1.8-stable-4build1_amd64.deb ...
+Unpacking libevent-core-2.1-6:amd64 (2.1.8-stable-4build1) ...
+mysql-common (5.8+1.0.4) 설정하는 중입니다 ...
+update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Selecting previously unselected package mysql-server-5.7.
+(데이터베이스 읽는중 ...현재 203767개의 파일과 디렉터리가 설치되어 있습니다.)
+Preparing to unpack .../mysql-server-5.7_5.7.42-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking mysql-server-5.7 (5.7.42-0ubuntu0.18.04.1) ...
+Selecting previously unselected package libcgi-pm-perl.
+Preparing to unpack .../libcgi-pm-perl_4.38-1_all.deb ...
+Unpacking libcgi-pm-perl (4.38-1) ...
+Selecting previously unselected package libhtml-template-perl.
+Preparing to unpack .../libhtml-template-perl_2.97-1_all.deb ...
+Unpacking libhtml-template-perl (2.97-1) ...
+Selecting previously unselected package mysql-server.
+Preparing to unpack .../mysql-server_5.7.42-0ubuntu0.18.04.1_all.deb ...
+Unpacking mysql-server (5.7.42-0ubuntu0.18.04.1) ...
+libcgi-pm-perl (4.38-1) 설정하는 중입니다 ...
+libhtml-template-perl (2.97-1) 설정하는 중입니다 ...
+libevent-core-2.1-6:amd64 (2.1.8-stable-4build1) 설정하는 중입니다 ...
+libaio1:amd64 (0.3.110-5ubuntu0.1) 설정하는 중입니다 ...
+mysql-server-core-5.7 (5.7.42-0ubuntu0.18.04.1) 설정하는 중입니다 ...
+mysql-client-core-5.7 (5.7.42-0ubuntu0.18.04.1) 설정하는 중입니다 ...
+mysql-client-5.7 (5.7.42-0ubuntu0.18.04.1) 설정하는 중입니다 ...
+mysql-server-5.7 (5.7.42-0ubuntu0.18.04.1) 설정하는 중입니다 ...
+update-alternatives: using /etc/mysql/mysql.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Renaming removed key_buffer and myisam-recover options (if present)
+Created symlink /etc/systemd/system/multi-user.target.wants/mysql.service → /lib/systemd/system/mysql.service.
+mysql-server (5.7.42-0ubuntu0.18.04.1) 설정하는 중입니다 ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
+root@student8-virtual-machine:~# systemctl restart mysql
+root@student8-virtual-machine:~# systemctl enable mysql
+Synchronizing state of mysql.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable mysql
+root@student8-virtual-machine:~# systemctl status mysql
+● mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset:>
+     Active: active (running) since Tue 2023-06-13 11:41:37 KST; 19s ago
+   Main PID: 7182 (mysqld)
+      Tasks: 27 (limit: 4573)
+     Memory: 173.1M
+        CPU: 373ms
+     CGroup: /system.slice/mysql.service
+             └─7182 /usr/sbin/mysqld --daemonize --pid-file=/run/mysqld/mysqld.>
+
+ 6월 13 11:41:36 student8-virtual-machine systemd[1]: Starting MySQL Community >
+ 6월 13 11:41:37 student8-virtual-machine systemd[1]: Started MySQL Community S>
+...skipping...
+● mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset:>
+     Active: active (running) since Tue 2023-06-13 11:41:37 KST; 19s ago
+   Main PID: 7182 (mysqld)
+      Tasks: 27 (limit: 4573)
+     Memory: 173.1M
+        CPU: 373ms
+     CGroup: /system.slice/mysql.service
+             └─7182 /usr/sbin/mysqld --daemonize --pid-file=/run/mysqld/mysqld.>
+
+ 6월 13 11:41:36 student8-virtual-machine systemd[1]: Starting MySQL Community >
+ 6월 13 11:41:37 student8-virtual-machine systemd[1]: Started MySQL Community S>
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+root@student8-virtual-machine:~# apt-get -y install php7.2-common
+패키지 목록을 읽는 중입니다... 완료
+의존성 트리를 만드는 중입니다... 완료
+상태 정보를 읽는 중입니다... 완료        
+다음의 추가 패키지가 설치될 것입니다 :
+  php-common
+다음 새 패키지를 설치할 것입니다:
+  php-common php7.2-common
+0개 업그레이드, 2개 새로 설치, 0개 제거 및 9개 업그레이드 안 함.
+903 k바이트 아카이브를 받아야 합니다.
+이 작업 후 6,712 k바이트의 디스크 공간을 더 사용하게 됩니다.
+받기:1 http://mirror.kakao.com/ubuntu bionic/main amd64 php-common all 1:60ubuntu1 [12.1 kB]
+받기:2 http://kr.archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-common amd64 7.2.24-0ubuntu0.18.04.17 [891 kB]
+내려받기 903 k바이트, 소요시간 2초 (374 k바이트/초)
+Selecting previously unselected package php-common.
+(데이터베이스 읽는중 ...현재 203902개의 파일과 디렉터리가 설치되어 있습니다.)
+Preparing to unpack .../php-common_1%3a60ubuntu1_all.deb ...
+Unpacking php-common (1:60ubuntu1) ...
+Selecting previously unselected package php7.2-common.
+Preparing to unpack .../php7.2-common_7.2.24-0ubuntu0.18.04.17_amd64.deb ...
+Unpacking php7.2-common (7.2.24-0ubuntu0.18.04.17) ...
+php-common (1:60ubuntu1) 설정하는 중입니다 ...
+Created symlink /etc/systemd/system/timers.target.wants/phpsessionclean.timer → /lib/systemd/system/phpsessionclean.timer.
+php7.2-common (7.2.24-0ubuntu0.18.04.17) 설정하는 중입니다 ...
+
+Creating config file /etc/php/7.2/mods-available/calendar.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/ctype.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/exif.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/fileinfo.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/ftp.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/gettext.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/iconv.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/pdo.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/phar.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/posix.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/shmop.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sockets.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvmsg.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvsem.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvshm.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/tokenizer.ini with new version
+root@student8-virtual-machine:~# 
+
